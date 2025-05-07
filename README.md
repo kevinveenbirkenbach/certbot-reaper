@@ -34,20 +34,6 @@ certreap --help        # Shows help message
 
 ---
 
-## 🔄 Automate with systemd
-
-Set up a weekly cleanup with systemd timer to run every Sunday at 03:00:
-
-1. Create a systemd service and timer as described in the repo
-2. Enable it:
-
-```bash
-sudo systemctl daemon-reload
-sudo systemctl enable --now cleanup-unused-certs.timer
-```
-
----
-
 ## 👤 Author
 
 Developed by [Kevin Veen-Birkenbach](https://www.veen.world) 🧠
